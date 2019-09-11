@@ -1,7 +1,7 @@
 require 'pry'
 
 def oxford_comma(array)
-    if array[count] == (array.length - 1)
+    if array[index] == (array.length - 1)
       array.last = "and #{array.last}"
     end
     array.join(", ")
