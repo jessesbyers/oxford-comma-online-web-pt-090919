@@ -1,11 +1,18 @@
 require 'pry'
 
 def oxford_comma(array)
-  new_array = []
-  final_array = []
-  new_array = array.join
-  final_array = new_array.split
-  final_array.join(", ")
+  array.each do |and|
+    array.last = "#{{and} array.last}"
+  end
+  end
+
+
+
+
+
+#  new_array = []
+#  final_array = []
+
 end
 
 
