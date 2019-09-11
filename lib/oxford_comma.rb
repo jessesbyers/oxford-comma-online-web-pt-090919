@@ -2,7 +2,10 @@ require 'pry'
 
 def oxford_comma(array)
   array.each do |and|
-    array.last = "#{{and} array.last}"
+    if array[count] == (array.length -1)
+      array.last = "#{{and } array.last}"
+    end
+    array.join(", ")
   end
   end
 
