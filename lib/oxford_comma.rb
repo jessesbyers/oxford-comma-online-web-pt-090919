@@ -5,6 +5,7 @@ def oxford_comma(array)
   final_array = []
   new_array = array.join(", ")
   final_array = new_array.split
+  final_array.to_s
 #  binding.pry
 end
 
