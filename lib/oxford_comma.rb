@@ -2,7 +2,7 @@ require 'pry'
 
 def oxford_comma(array)
     if array.last != array[0]
-      array.last = "and #{array.last}"
+      array.insert(-2, "and #{array.last}")
     end
     array.join(", ")
   end
