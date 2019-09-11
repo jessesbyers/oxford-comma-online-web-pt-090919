@@ -6,5 +6,5 @@ def oxford_comma(array)
     comma = ", "
     new_array << array.join(comma)
   end
-  new_array.to_s
+  new_array.split
 end
