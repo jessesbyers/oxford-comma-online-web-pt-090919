@@ -1,7 +1,7 @@
 require 'pry'
 
 def oxford_comma(array)
-  array.join(", ")
-#  array[-1].join(" and ")
-#  binding.pry
+  new_array = []
+  new_array << array.join(", ")
+  new_array
 end
