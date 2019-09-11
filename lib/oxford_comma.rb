@@ -4,8 +4,5 @@ def oxford_comma(array)
   new_array = []
   array << "and"
   array.split
-  array.each do |comma|
-    comma = ", "
-    new_array << array.split(comma)
   end
 end
