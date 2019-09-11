@@ -1,5 +1,3 @@
-require 'pry'
-
 def oxford_comma(array)
     if array.last != array[0]
       array[-1] = ("and #{array[-1]}")
