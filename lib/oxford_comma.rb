@@ -1,11 +1,10 @@
 require 'pry'
 
 def oxford_comma(array)
-    if array[index] == (array.length - 1)
+    if array.last != array[0]
       array.last = "and #{array.last}"
     end
     array.join(", ")
-
   end
 
 
